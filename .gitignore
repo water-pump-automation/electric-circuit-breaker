@@ -1,9 +1,14 @@
+.vscode
+build
+tests/test.result
+
 # Prerequisites
 *.d
 
 # Object files
 *.o
 *.ko
+!lib/*o
 *.obj
 *.elf
 
